@@ -1,0 +1,43 @@
+body{
+  font-family: 'open sans';
+  margin: 0;
+}
+
+input, button {
+  padding: 0.4rem 0.6rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.error {
+  color: red;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.user {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+}
+
+.user + .user {
+  border-top: 1px solid lightgray;
+}
+
+.add {
+  display: flex;
+  flex-direction: row;
+}
+
+.add input {
+  flex: 1;
+}
