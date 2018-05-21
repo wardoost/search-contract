@@ -33,5 +33,5 @@ module.exports = {
       template: join(__dirname, 'src/index.html')
     })
   ],
-  devtool: 'source-map'
+  devtool: false
 }
